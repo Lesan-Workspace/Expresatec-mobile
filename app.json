@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ExpresaTec-AppMovil",
+    "slug": "ExpresaTec-AppMovil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abrahamguzz.ExpresaTecAppMovil"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.abrahamguzz.ExpresaTecAppMovil"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77c5aa9e-1ac9-4fbc-b878-3f4b7cee0c0e"
+      }
+    }
+  }
+}
